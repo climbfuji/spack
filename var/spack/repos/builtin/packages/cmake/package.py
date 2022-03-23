@@ -141,6 +141,9 @@ class Cmake(Package):
     # https://gitlab.kitware.com/cmake/cmake/merge_requests/4075
     patch('fix-xlf-ninja-mr-4075.patch', sha256="42d8b2163a2f37a745800ec13a96c08a3a20d5e67af51031e51f63313d0dedd1", when="@3.15.5")
 
+    # Add missing '#include <memory>' to Source/cmMachO.h - fixed for 3.23+
+    patch('include_memory_dot_h.patch', when='@:3.22.9')
+
     # We default ownlibs to true because it greatly speeds up the CMake
     # build, and CMake is built frequently. Also, CMake is almost always
     # a build dependency, and its libs will not interfere with others in
