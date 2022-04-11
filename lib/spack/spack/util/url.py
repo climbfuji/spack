@@ -120,6 +120,7 @@ def format(parsed_url):
     Returns a canonicalized format of the given URL as a string.
     """
     if isinstance(parsed_url, string_types):
+        print("DH DEBUG: parsed_url is '{}'".format(parsed_url))
         parsed_url = parse(parsed_url)
 
     return parsed_url.geturl()
@@ -343,8 +344,9 @@ def parse_git_url(url):
 
 
 def require_url_format(url):
+    print("DH DEBUG require_url_format: url is '{}'".format(url))
     ut = re.search(r'^(file://|http://|https://|ftp://|s3://|gs://|ssh://|git://|/)', url)
-    assert ut is not None
+    #assert ut is not None
 
 
 def escape_file_url(url):
