@@ -120,6 +120,7 @@ class NetcdfFortran(AutotoolsPackage):
 
         netcdf_c_spec = self.spec['netcdf-c']
 
+        ### DH* IS THIS REALLY NEEDED?
         # Fix a bug on some systems using Intel OneAPI where the netCDF-c
         # headers and libraries are not found. This doesn't hurt on other systems.
         config_args.append('CPPFLAGS=-I%s' % netcdf_c_spec.prefix.include)
@@ -129,6 +130,7 @@ class NetcdfFortran(AutotoolsPackage):
         # We need to build with MPI wrappers if either of the parallel I/O
         # features is enabled in netcdf-c:
         # https://www.unidata.ucar.edu/software/netcdf/docs/building_netcdf_fortran.html
+        ### *DH
         if '+mpi' in netcdf_c_spec or '+parallel-netcdf' in netcdf_c_spec:
             # Prefixing with 'mpiexec -n 4' is not necessarily the correct way
             # to launch MPI programs on a particular machine (e.g. 'srun -n 4'

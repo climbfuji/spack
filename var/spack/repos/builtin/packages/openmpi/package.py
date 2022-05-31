@@ -1094,12 +1094,8 @@ def get_spack_compiler_spec(compiler):
     actual_compiler = None
     # check if the compiler actually matches the one we want
     for spack_compiler in spack_compilers:
-<<<<<<< HEAD
-        if (spack_compiler.cc and spack_compiler.cc == compiler):
-=======
         if (spack_compiler.cc and
                 os.path.dirname(spack_compiler.cc) == path):
->>>>>>> spack/releases/v0.18
             actual_compiler = spack_compiler
             break
     return actual_compiler.spec if actual_compiler else None
