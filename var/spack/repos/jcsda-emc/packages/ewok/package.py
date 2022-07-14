@@ -7,8 +7,7 @@ from spack import *
 
 
 class Ewok(PythonPackage):
-    """Experiments and Workflows Orchestration Kit (EWOK) - DH* NEED TO FILL IN THE DETAILS
-    """
+    """Experiments and Workflows Orchestration Kit (EWOK) for JEDI at JCSDA."""
 
     homepage = "https://github.com/JCSDA/ewok"
     git = "https://github.com/JCSDA/ewok.git"
