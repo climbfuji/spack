@@ -128,3 +128,9 @@ class Bzip2(Package, SourcewarePackage):
             force_remove("bunzip2", "bzcat")
             symlink("bzip2", "bunzip2")
             symlink("bzip2", "bzcat")
+
+    @run_after("install")
+    def darwin_fix(self):
+        # The shared library is not installed correctly on Darwin; fix this
+        if self.spec.satisfies("platform=darwin"):
+            fix_darwin_install_name(self.prefix.lib)
