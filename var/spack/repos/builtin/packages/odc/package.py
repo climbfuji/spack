@@ -34,3 +34,9 @@ class Odc(CMakePackage):
             self.define("ENABLE_TESTS", self.run_tests),
         ]
         return args
+
+    @run_after("install")
+    def darwin_fix(self):
+        # The shared library is not installed correctly on Darwin; fix this
+        if self.spec.satisfies("platform=darwin"):
+            fix_darwin_install_name(self.prefix.lib)
