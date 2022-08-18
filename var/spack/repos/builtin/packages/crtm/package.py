@@ -43,3 +43,10 @@ class Crtm(CMakePackage):
     version("2.3.0", commit="99760e6")
     # JEDI applications so far use this version
     version("v2.3-jedi.4", commit="bfede42")
+
+    @run_after("install")
+    def darwin_fix(self):
+        with when("@v2.3-jedi.4"):
+            # The shared library is not installed correctly on Darwin; fix this
+            if self.spec.satisfies("platform=darwin"):
+                fix_darwin_install_name(self.prefix.lib)
