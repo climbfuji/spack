@@ -64,3 +64,9 @@ class EcmwfAtlas(CMakePackage):
         if '~shared' in self.spec:
             res.append('-DBUILD_SHARED_LIBS=OFF')
         return res
+
+    @run_after("install")
+    def darwin_fix(self):
+        # The shared library is not installed correctly on Darwin; fix this
+        if self.spec.satisfies("platform=darwin"):
+            fix_darwin_install_name(self.prefix.lib)
