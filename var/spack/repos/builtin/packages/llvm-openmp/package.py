@@ -54,3 +54,9 @@ class LlvmOpenmp(CMakePackage):
     @property
     def libs(self):
         return find_libraries("libomp", root=self.prefix, recursive=True)
+
+    @run_after("install")
+    def darwin_fix(self):
+        # The shared library is not installed correctly on Darwin; fix this
+        if self.spec.satisfies("platform=darwin"):
+            fix_darwin_install_name(self.prefix.lib)
