@@ -114,3 +114,10 @@ class Fms(CMakePackage):
             args.append(self.define('CMAKE_Fortran_FLAGS', ' '.join(fflags)))
 
         return args
+
+    @run_after("install")
+    def darwin_fix(self):
+        with when("@release-jcsda"):
+            # The shared library is not installed correctly on Darwin; fix this
+            if self.spec.satisfies("platform=darwin"):
+                fix_darwin_install_name(self.prefix.lib)
