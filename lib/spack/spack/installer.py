@@ -1855,7 +1855,7 @@ class BuildProcessInstaller(object):
         self.fake = install_args.get("fake", False)
 
         # whether to install source code with the packag
-        self.install_source = install_args.get("install_source", False)
+        self.install_source = install_args.get("install_source", True)
 
         # whether to keep the build stage after installation
         self.keep_stage = install_args.get("keep_stage", False)
@@ -2371,7 +2371,7 @@ class BuildRequest(object):
             ("fake", False),
             ("install_deps", True),
             ("install_package", True),
-            ("install_source", False),
+            ("install_source", True),
             ("package_cache_only", False),
             ("package_use_cache", True),
             ("keep_prefix", False),
