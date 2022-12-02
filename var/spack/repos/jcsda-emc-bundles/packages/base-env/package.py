@@ -29,18 +29,16 @@ class BaseEnv(BundlePackage):
     depends_on("curl", type="run")
 
     # I/O
-    depends_on("zlib+shared", type="run", when="+shared")
-    depends_on("zlib~shared", type="run", when="~shared")
-    depends_on("hdf5+hl+mpi+shared", type="run", when="+shared")
-    depends_on("hdf5+hl+mpi~shared", type="run", when="~shared")
-    depends_on("netcdf-c~parallel-netcdf+v2+mpi+shared", type="run", when="+shared")
-    depends_on("netcdf-c~parallel-netcdf+v2+mpi~shared", type="run", when="~shared")
-    depends_on("netcdf-fortran+shared", type="run", when="+shared")
-    depends_on("netcdf-fortran~shared", type="run", when="~shared")
-    depends_on("parallel-netcdf+shared", type="run", when="+shared")
-    depends_on("parallel-netcdf~shared", type="run", when="~shared")
-    depends_on("parallelio+fortran~pnetcdf+shared", type="run", when="+shared")
-    depends_on("parallelio+fortran~pnetcdf~shared", type="run", when="~shared")
+    with when("+shared"):
+        shared_variant = "+shared"
+    with when("~shared"):
+        shared_variant = "~shared"
+    depends_on("zlib{}".format(shared_variant), type="run", when="{}".format(shared_variant))
+    depends_on("hdf5{}".format(shared_variant), type="run", when="{}".format(shared_variant))
+    depends_on("netcdf-c{}".format(shared_variant), type="run", when="{}".format(shared_variant))
+    depends_on("netcdf-fortran{}".format(shared_variant), type="run", when="{}".format(shared_variant))
+    depends_on("parallel-netcdf{}".format(shared_variant), type="run", when="{}".format(shared_variant))
+    depends_on("parallelio{}".format(shared_variant), type="run", when="{}".format(shared_variant))
     depends_on("nccmp", type="run")
 
     # Python
