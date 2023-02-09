@@ -38,9 +38,13 @@ class Libxml2(AutotoolsPackage):
     version("2.7.8", sha256="cda23bc9ebd26474ca8f3d67e7d1c4a1f1e7106364b690d822e009fdc3c417ec")
 
     variant("python", default=False, description="Enable Python support")
+    # See https://android.googlesource.com/platform/external/libxml2:
+    # explicit iconv support isn't needed on modern UNIX-like systems,
+    # because it is part of POSIX.1-2001.
+    variant("iconv", default=False, description="Enable explicit iconv support")
 
     depends_on("pkgconfig@0.9.0:", type="build")
-    depends_on("iconv")
+    depends_on("iconv", when="+iconv")
     depends_on("zlib")
     depends_on("xz")
 
@@ -92,8 +96,12 @@ class Libxml2(AutotoolsPackage):
 
         args = [
             "--with-lzma={0}".format(spec["xz"].prefix),
-            "--with-iconv={0}".format(spec["iconv"].prefix),
         ]
+
+        if "+iconv" in spec:
+            args.append("--with-iconv={0}".format(spec["iconv"].prefix))
+        else:
+            args.append("--without-iconv")
 
         if "+python" in spec:
             args.extend(
