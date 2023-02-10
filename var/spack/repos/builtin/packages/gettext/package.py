@@ -36,7 +36,12 @@ class Gettext(AutotoolsPackage, GNUMirrorPackage):
     # Optional variants
     variant("libunistring", default=False, description="Use libunistring")
 
-    depends_on("iconv")
+    # See https://android.googlesource.com/platform/external/libxml2:
+    # explicit iconv support isn't needed on modern UNIX-like systems,
+    # because it is part of POSIX.1-2001.
+    variant("iconv", default=False, description="Enable explicit iconv support")
+
+    depends_on("iconv", when="+iconv")
     # Recommended dependencies
     depends_on("ncurses", when="+curses")
     depends_on("libxml2", when="+libxml2")
@@ -78,7 +83,6 @@ class Gettext(AutotoolsPackage, GNUMirrorPackage):
         config_args = [
             "--disable-java",
             "--disable-csharp",
-            "--with-libiconv-prefix={0}".format(spec["iconv"].prefix),
             "--with-included-glib",
             "--with-included-gettext",
             "--with-included-libcroco",
@@ -86,6 +90,11 @@ class Gettext(AutotoolsPackage, GNUMirrorPackage):
             "--with-lispdir=%s/emacs/site-lisp/gettext" % self.prefix.share,
             "--without-cvs",
         ]
+
+        if "+iconv" in spec:
+            config_args.append("--with-libiconv-prefix={0}".format(spec["iconv"].prefix)),
+        else:
+            config_args.append("--without-libiconv-prefix")
 
         if "+curses" in spec:
             config_args.append("--with-ncurses-prefix={0}".format(spec["ncurses"].prefix))
