@@ -1,4 +1,4 @@
-# <img src="https://cdn.rawgit.com/spack/spack/develop/share/spack/logo/spack-logo.svg" width="64" valign="middle" alt="Spack"/> Spack
+xxx:x# <img src="https://cdn.rawgit.com/spack/spack/develop/share/spack/logo/spack-logo.svg" width="64" valign="middle" alt="Spack"/> Spack
 
 [![Unit Tests](https://github.com/spack/spack/workflows/linux%20tests/badge.svg)](https://github.com/spack/spack/actions)
 [![Bootstrapping](https://github.com/spack/spack/actions/workflows/bootstrap.yml/badge.svg)](https://github.com/spack/spack/actions/workflows/bootstrap.yml)
