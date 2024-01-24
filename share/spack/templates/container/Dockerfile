@@ -18,6 +18,10 @@ RUN {% if os_package_update %}{{ os_packages_build.update }} \
 {{ extra_instructions.pre_build }}
 {% endif %}
 
+{% if extra_instructions.spack_extension %}
+{% extra_instructions.spack_extension %}
+{% endif %}
+
 # What we want to install and how we want to install it
 # is specified in a manifest file (spack.yaml)
 RUN mkdir {{ paths.environment }} \
