@@ -109,6 +109,9 @@ class Hdf5(CMakePackage):
         multi=False,
     )
 
+    variant("instrument", default=False, description="Enable instrumentation of HDF5 library")
+    variant("trace", default=False, description="Enable API tracing in HDF5 library")
+
     depends_on("cmake@3.12:", type="build")
     depends_on("cmake@3.18:", type="build", when="@1.13:")
 
@@ -160,6 +163,12 @@ class Hdf5(CMakePackage):
     # See https://github.com/HDFGroup/hdf5/issues/2906#issue-1697749645
     conflicts(
         "+fortran", when="@1.13.3:^cmake@:3.22", msg="cmake_minimum_required is not set correctly."
+    )
+
+    conflicts(
+        "build_type=Debug +mpi",
+        when="~instrument",
+        msg="'build_type=Debug +mpi' requires '+instrument'"
     )
 
     # There are several officially unsupported combinations of the features:
@@ -499,6 +508,9 @@ class Hdf5(CMakePackage):
         if spec.satisfies("@:1.8.15+shared"):
             tty.warn("hdf5@:1.8.15+shared does not produce static libraries")
 
+        if spec.satisfies("build_type=Debug +mpi") and not spec.satisfies("+instrument"):
+            raise InstallError("'build_type=Debug +mpi' requires '+instrument'")
+
         args = [
             # Always enable this option. This does not actually enable any
             # features: it only *allows* the user to specify certain
@@ -527,6 +539,8 @@ class Hdf5(CMakePackage):
             self.define_from_variant("HDF5_BUILD_FORTRAN", "fortran"),
             self.define_from_variant("HDF5_BUILD_JAVA", "java"),
             self.define_from_variant("HDF5_BUILD_TOOLS", "tools"),
+            self.define_from_variant("HDF5_ENABLE_INSTRUMENT", "instrument"),
+            self.define_from_variant("HDF5_ENABLE_TRACE", "trace")
         ]
 
         api = spec.variants["api"].value
