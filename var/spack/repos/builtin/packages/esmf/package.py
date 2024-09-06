@@ -80,6 +80,7 @@ class Esmf(MakefilePackage):
         when="@8.3.1:",
     )
     variant("debug", default=False, description="Build with debugging symbols and options enabled")
+    variant("extradebug", default=False, description="Enable extra debugging for ASMM calls")
     variant("shared", default=True, description="Build shared library")
 
     # 'esmf_os', 'esmf_comm', 'esmf_pio' variants allow override values for their corresponding
@@ -167,6 +168,30 @@ class Esmf(MakefilePackage):
             # Starting with ESMF 8.0.0 releases are in the form vx.y.z
             return "https://github.com/esmf-org/esmf/archive/refs/tags/v{0}.tar.gz".format(
                 version.dotted
+            )
+
+    def edit(self, spec, prefix):
+        # Enable custom debugging of ASMM calls
+        if "+extradebug" in spec:
+            filter_file(
+                "#define ASMM_STORE_MEMLOG_off",
+                "#define ASMM_STORE_MEMLOG_on",
+                "src/Infrastructure/Array/src/ESMCI_Array.C"
+            )
+            filter_file(
+                "#define MEMLOG_off",
+                "#define MEMLOG_on",
+                "src/Infrastructure/Mesh/src/ESMCI_Mesh_Regrid_Glue.C"
+            )
+            filter_file(
+                '#define DEBUG_COMPAT_off',
+                '#define DEBUG_COMPAT_on',
+                'src/Infrastructure/VM/src/ESMCI_VMKernel.C'
+            )
+            filter_file(
+                '#define DEBUG_COMPAT2_off',
+                '#define DEBUG_COMPAT2_on',
+                'src/Infrastructure/VM/src/ESMCI_VMKernel.C'
             )
 
     def setup_build_environment(self, env):
