@@ -48,7 +48,6 @@ class Grads(AutotoolsPackage):
 
     depends_on("hdf5", when="+hdf5")
     depends_on("hdf", when="+hdf4")
-    # DH* MERGE CONFLICT DO WE NEED THIS LINE???
     depends_on("hdf5", when="+netcdf")
     depends_on("netcdf-c", when="+netcdf")
     depends_on("g2c+pic", when="+grib2")

@@ -149,9 +149,6 @@ class NodeJs(Package):
     # and https://github.com/nodejs/node/issues/53633
     patch("fix-broken-gcc12-pr53728.patch", when="@22.2:22.5")
 
-    # DH* MERGE CONFLICT - COMPARE TO ORIGINAL SPACK-STACK-DEV CODE
-    # TO SEE WHAT WAS DELETED
-
     # https://github.com/nodejs/node/issues/55596
     # This patch is not sufficient, however, therefore
     # add a conflict with this particular version of gcc
