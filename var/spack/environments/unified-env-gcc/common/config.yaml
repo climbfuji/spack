@@ -1,0 +1,15 @@
+# Set package and module installation directories
+config:
+  install_hash_length: 7
+  install_tree:
+    root: $env/install
+    projections:
+      all: "{compiler.name}/{compiler.version}/{name}-{version}-{hash}"
+    # Needed for relocation of binary packages (build caches)
+    #padded_length: true
+
+  # Timeout in seconds for web requests (curl/urllib)
+  connect_timeout: 60
+
+  # Install deprecated packages (need for py-werkzeug@0.15.3, DH 20250417)
+  deprecated: true
