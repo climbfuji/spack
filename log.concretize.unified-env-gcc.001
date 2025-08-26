@@ -1,0 +1,325 @@
+==> Concretized 24 specs:
+ -   anehqpx  crtm@v2.4.1-jedi.2+fix~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   zqnzwps      ^cmake@3.31.8~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   sj6b3al          ^curl@8.11.1~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   ekwtzqw              ^nghttp2@1.65.0 build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   62mkyky          ^ncurses@6.5~symlinks+termlib abi=none build_system=autotools patches:=7a351bc arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   duxgnzf          ^zlib@1.3.1+optimize+pic+shared build_system=makefile arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   tf56dks      ^compiler-wrapper@1.0 build_system=generic arch=linux-almalinux9-skylake
+ -   fnikbdz      ^ecbuild@3.7.2~fismahigh~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+[e]  hahvpcq      ^git-lfs@3.4.1 build_system=makefile arch=linux-almalinux9-skylake
+[e]  j2cwen2      ^glibc@2.34 build_system=autotools arch=linux-almalinux9-skylake
+ -   u43lgh5      ^gmake@4.4.1~guile build_system=generic arch=linux-almalinux9-skylake %c=clang@20.1.5
+[e]  mmsu6dl      ^llvm@20.1.5+clang~cuda+flang+gold~libomptarget~libomptarget_debug~link_llvm_dylib+lld+lldb+llvm_dylib+lua~mlir+offload+polly~python~split_dwarf~z3~zstd build_system=cmake build_type=Release compiler-rt=runtime generator=ninja libcxx=runtime libunwind=runtime openmp=runtime shlib_symbol_version=none targets:=all version_suffix=none arch=linux-almalinux9-skylake
+ -   aquoend      ^netcdf-fortran@4.6.1~doc+parallel_tests+pic+shared build_system=autotools arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   57oq5tt  crtm@3.1.2+fix~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   rwv6gbz      ^crtm-fix@3.1.2.0+big_endian~little_endian+netcdf~testfiles build_system=generic arch=linux-almalinux9-skylake
+ -   rru6rbf  esmf@8.6.1~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   f7caw34      ^netcdf-c@4.9.2+blosc~byterange+dap~fsync~hdf4~ipo~jna~logging+mpi~nczarr_zip+optimize~parallel-netcdf+parallel_tests+pic+shared~szip+zstd build_system=cmake build_type=Release generator=make patches:=0161eb8,3b09181 arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   t47lwcs          ^bzip2@1.0.8~debug~pic+shared build_system=generic arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   busncik              ^diffutils@3.10 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   55s2uvt          ^c-blosc@1.21.6+avx2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   pmwrvf3              ^lz4@1.10.0+pic build_system=makefile libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   wouaokf              ^snappy@1.2.1~ipo+pic+shared build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   77y5jjs          ^libxml2@2.13.5~http+pic~python+shared build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   epqkw3n              ^libiconv@1.18 build_system=autotools libs:=shared,static arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   zfrmgrq          ^m4@1.4.20+sigsegv build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   cfyceom              ^libsigsegv@2.14 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   7dhxpx6          ^zstd@1.5.7+pic+programs build_system=makefile compression:=none libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   kdxirdo      ^openmpi@5.0.8+atomics~cuda~debug+fortran~gpfs~internal-hwloc~internal-libevent~internal-pmix~ipv6~java~lustre~memchecker~openshmem~rocm~romio+rsh~static+two_level_namespace+vt+wrapper-rpath build_system=autotools fabrics:=none romio-filesystem:=none schedulers:=none arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+[e]  p2zevx4          ^autoconf@2.69 build_system=autotools patches:=7793209 arch=linux-almalinux9-skylake
+ -   3sctmj2          ^automake@1.16.5 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   rrbustp          ^hwloc@2.11.1~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl~pci~rocm build_system=autotools libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   4iaqaiw          ^libevent@2.1.12+openssl build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   bw4ppiw          ^libtool@2.4.7 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   d5dj7he              ^findutils@4.10.0 build_system=autotools patches:=440b954 arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   azirs2v          ^openssh@9.9p1+gssapi build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   hyhwefx              ^krb5@1.21.3+shared build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   bp5jsiq              ^libedit@3.1-20240808 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   sjuk3lr              ^libxcrypt@4.4.38~obsolete_api build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ecuwaq6          ^pkg-config@0.29.2+internal_glib build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ixpzmxl          ^pmix@5.0.5~munge~python build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   c57sukw      ^parallelio@2.6.2+fortran~ipo~logging+mpi~ncint+pnetcdf+shared~timing build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   mgmswn6      ^py-mpi4py@4.0.1 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   cplkaoq          ^py-cython@3.0.12 build_system=python_pip arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   qwx2jvy      ^py-numpy@1.26.3 build_system=python_pip patches:=873745d arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   6tdl6to          ^ninja@1.12.1+re2c build_system=generic patches:=93f4bb3 arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   4wbefs2              ^re2c@3.1 build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   d5lgkc3          ^py-pyproject-metadata@0.9.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   bupqdrf      ^py-pip@25.1.1 build_system=generic arch=linux-almalinux9-skylake
+ -   u2ueje3      ^py-pyyaml@6.0.2+libyaml build_system=python_pip arch=linux-almalinux9-skylake
+ -   armko4z      ^py-setuptools@69.2.0 build_system=generic arch=linux-almalinux9-skylake
+ -   nzrsgk4      ^py-wheel@0.45.1 build_system=generic arch=linux-almalinux9-skylake
+ -   a4pgnkd      ^python@3.11.11+bz2~crypt+ctypes+dbm~debug+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches:=13fa8bf,b0615b2,ebdca64,f2fd060 arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   sujo2nm          ^expat@2.7.1~libbsd build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   b4nytch          ^gdbm@1.23 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   j44q7wy          ^gettext@0.23.1+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   2t7mddc              ^tar@1.35 build_system=autotools zip=pigz arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ypxa6jp                  ^pigz@2.8 build_system=makefile arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   dcgnoqn          ^libffi@3.4.8 build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   35zaob7          ^openssl@3.4.1~docs+shared build_system=generic certs=system arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   hjs45mi          ^readline@8.2 build_system=autotools patches:=1ea4349,24f587b,3d9885e,5911a5b,622ba38,6c8adf8,758e2ec,79572ee,a177edc,bbf97f1,c7b45ff,e0013d9,e065038 arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   m23tnnt          ^sqlite@3.46.0+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   krw2t5w          ^util-linux-uuid@2.41 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   jj33z55          ^xz@5.6.3~pic build_system=autotools libs:=shared,static arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   irtn5ww      ^python-venv@1.0 build_system=generic arch=linux-almalinux9-skylake
+ -   fz4kl3y  esmf@8.8.0~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   xkgujqm  esmf@8.9.0~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   sxdj27m  ewok-env@1.0.0~cylc+ecflow~ewok~mysql~r2d2~solo build_system=bundle arch=linux-almalinux9-skylake
+ -   5z3fcsk      ^awscli-v2@2.24.24~examples build_system=python_pip arch=linux-almalinux9-skylake
+ -   slpiwic          ^py-awscrt@0.20.9 build_system=python_pip arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   uoc2xss          ^py-colorama@0.4.6 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ddu4sj3          ^py-cryptography@42.0.8 build_system=python_pip arch=linux-almalinux9-skylake
+ -   hqplkck              ^py-cffi@1.17.1 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   cel3jgg                  ^py-pycparser@2.21 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   amq6hmq              ^py-setuptools-rust@1.9.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   eq6yb2w                  ^py-semantic-version@2.10.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ukb47z7              ^rust@1.85.0~dev~docs+src build_system=generic arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   kefaq2o                  ^libgit2@1.8.0~curl~ipo+mmap+ssh build_system=cmake build_type=Release generator=make https=system arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   abxthsu                      ^pcre@8.45~jit+multibyte+pic+shared+static+utf build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   zm7pyw4                  ^libssh2@1.11.1+shared build_system=autotools crypto=openssl arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   xwxtorc                  ^rust-bootstrap@1.85.0 build_system=generic arch=linux-almalinux9-skylake
+ -   zllh5dq          ^py-distro@1.8.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   tupmi2u          ^py-docutils@0.19 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vdsatzw          ^py-flit-core@3.8.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   4fknta3          ^py-jmespath@1.0.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   izsr47f          ^py-prompt-toolkit@3.0.38 build_system=python_pip arch=linux-almalinux9-skylake
+ -   rvvqfms              ^py-wcwidth@0.2.7 build_system=python_pip arch=linux-almalinux9-skylake
+ -   oacgnq3      ^ecflow@5.11.4~ipo~pic+ssl~static_boost+ui build_system=cmake build_type=Release generator=make patches:=1bd51d9,2e6d6d0 arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   oo2ivso          ^boost@1.84.0~atomic+chrono~clanglibcpp~cobalt~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem~graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi~mqtt5+multithreaded~nowide~numpy+pic+program_options+python~random+regex+serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~url~versionedlayout~wave build_system=generic cxxstd=17 patches:=a440f96,b8569d7 visibility=hidden arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+[e]  73vtuvj          ^qt@5.15.9~dbus~debug~doc~examples~framework~gtk+gui~location~opengl~phonon+shared+sql+ssl+tools~webkit build_system=generic patches:=51aeba5,7f34d48 arch=linux-almalinux9-skylake
+ -   7vqyzor      ^jedi-base-env@1.0.0~bufrquery+fftw+hdf4 build_system=bundle arch=linux-almalinux9-skylake
+ -   blva6yd          ^bison@3.8.2~color build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   vnpc6re          ^eccodes@2.33.0+aec~fortran~ipo~memfs+netcdf~openmp+png~pthreads+shared+tools build_system=cmake build_type=Release extra_definitions:=none generator=make jp2k=openjpeg arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   hpqsp2e              ^openjpeg@2.3.1~codec~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   wibf5wj          ^eckit@1.28.3+admin+aio~curl~fismahigh~ipo~jemalloc+mpi+openmp+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression:=bzip2,lz4 generator=make linalg:=eigen,lapack arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   2rtavaz          ^ecmwf-atlas@0.40.0+eigen+fckit+fftw~fismahigh~ipo+openmp+shared+tesselation+trans build_system=cmake build_type=RelWithDebInfo generator=make patches:=569103b arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   5vttk2q          ^eigen@3.4.0~ipo~nightly~rocm build_system=cmake build_type=RelWithDebInfo generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   3rh7nnq          ^fckit@0.13.2+eckit~fismahigh~ipo+openmp+shared build_system=cmake build_type=RelWithDebInfo generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   5tj5wen          ^fftw@3.3.10+mpi~openmp~pfft_patches+shared build_system=autotools patches:=872cff9 precision:=double,float arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   duqrwku          ^flex@2.6.4+lex~nls build_system=autotools patches:=f8b85a0 arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   kqyag4v              ^help2man@1.49.3 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   nr6ssys          ^gsl-lite@0.41.0~cmake_export_package_registry~compat_header~cuda_tests~examples~ipo~legacy_headers~static_analysis_demos~tests build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   g7xiwmt          ^hdf@4.2.15+external-xdr~fortran~java~netcdf+pic~shared~szip build_system=autotools patches:=49733dd,5434f29,ce75518,d54592d,f7d67e8 arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   gc3wf5o              ^libtirpc@1.3.3~gssapi build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   d26uie4          ^jedi-cmake@1.4.0~ipo build_system=cmake build_type=Release commit=36fc99bdff5d3d8835480b37a3dcc75e5f8da256 generator=make arch=linux-almalinux9-skylake
+ -   u7hwdhv          ^ncview@2.1.9 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   td7lulm              ^libxaw@1.0.16 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   7jx34t3                  ^libx11@1.8.11 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ldhd3yq                      ^inputproto@2.3.2 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   olnchuu                      ^kbproto@1.0.7 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   gaq6seq                      ^libxcb@1.17.0 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   rqcxowc                          ^libpthread-stubs@0.5 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   3bxka5u                          ^libxau@1.0.12 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   wzb5afk                          ^libxdmcp@1.1.5 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   6s7bjjo                          ^xcb-proto@1.17.0 build_system=autotools arch=linux-almalinux9-skylake
+ -   nl4i7jw                      ^xtrans@1.6.0 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   mataku6                  ^libxext@1.3.6 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ursgj4l                  ^libxpm@3.5.17 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   6buk7go                  ^libxt@1.3.1 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   eidemqz                      ^libice@1.1.2 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   a5tlp3l                          ^libbsd@0.12.2 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   5b2mwrj                              ^libmd@1.1.0 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   jiam53q                      ^libsm@1.2.6 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   mfnv7i2                  ^util-macros@1.20.1 build_system=autotools arch=linux-almalinux9-skylake
+ -   pyaw6bt                  ^xextproto@7.3.0 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   tj2v23v                  ^xproto@7.0.31 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   n5kgusw              ^libxmu@1.2.1 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   kejydwc          ^netcdf-cxx4@4.3.1~doc~ipo+pic+shared~tests build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   a7bw2y5          ^nlohmann-json@3.11.3~ipo+multiple_headers build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   6wmkxcp          ^nlohmann-json-schema-validator@2.3.0~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   wwpifcu          ^odc@1.6.1~fortran~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   q7y7yo2          ^py-eccodes@1.5.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   bwuj3cy              ^py-attrs@22.2.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   udsqqwj              ^py-findlibs@0.0.2 build_system=python_pip patches:=6701e0e arch=linux-almalinux9-skylake
+ -   yylzwcz      ^py-boto3@1.34.162 build_system=python_pip arch=linux-almalinux9-skylake
+ -   krjoci7          ^py-botocore@1.34.162 build_system=python_pip arch=linux-almalinux9-skylake
+ -   2sgqvb3          ^py-s3transfer@0.10.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   7gngxiz      ^py-cartopy@0.24.1~ows+plotting build_system=python_pip arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   bv3uvar          ^py-packaging@25.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ixk4kjv          ^py-pillow@11.1.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~xcb+zlib build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   dui4rnp          ^py-pyproj@3.7.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   dzxsh2w          ^py-pyshp@2.3.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   elefhyb          ^py-setuptools-scm@8.2.1+toml build_system=python_pip arch=linux-almalinux9-skylake
+ -   qymlf2s          ^py-shapely@2.1.1 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ph34kt2              ^geos@3.13.1~ipo+shared build_system=cmake build_type=Release generator=ninja arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   nbj3u6d      ^py-gitpython@3.1.43 build_system=python_pip arch=linux-almalinux9-skylake
+ -   c66gt5x          ^py-gitdb@4.0.9 build_system=python_pip arch=linux-almalinux9-skylake
+ -   tomdrxs              ^py-smmap@5.0.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   34xprtj      ^py-globus-cli@3.16.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   qgxuvg7          ^py-globus-sdk@3.25.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   kn3xbro              ^py-pyjwt@2.4.0+crypto build_system=python_pip arch=linux-almalinux9-skylake
+ -   bysz5e5      ^py-jinja2@3.1.2~i18n build_system=python_pip arch=linux-almalinux9-skylake
+ -   rlidajf          ^py-markupsafe@2.1.3 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   yyw2ap5      ^py-ruamel-yaml@0.17.16 build_system=python_pip arch=linux-almalinux9-skylake
+ -   lbpm3l5      ^py-ruamel-yaml-clib@0.2.12 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   jjgd6r5  geos-gcm-env@1.1.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   skaap3h      ^base-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   5xaaxdl          ^cloc@2.00 build_system=generic arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+[e]  t6tgfzu          ^git@2.43.5+man+nls+perl+subtree~svn~tcltk build_system=autotools arch=linux-almalinux9-skylake
+ -   x2kxde7          ^nccmp@1.9.0.1~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   wq4hu5j          ^wget@1.24.5~libpsl~pcre~python+zlib build_system=autotools ssl=openssl arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   mey3fo5      ^fargparse@1.9.0~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   3fbufoa      ^gftl-shared@1.10.0~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   ar2bq6h      ^mepo@2.4.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   56i5kpb          ^py-hatchling@1.27.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   e7gmmv4              ^py-pathspec@0.10.3 build_system=python_pip arch=linux-almalinux9-skylake
+ -   tfg4cec              ^py-trove-classifiers@2025.5.9.12 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5jmicy7                  ^py-calver@2022.6.26 build_system=python_pip arch=linux-almalinux9-skylake
+ -   guzkzyw      ^openblas@0.3.29~bignuma~consistent_fpcsr+dynamic_dispatch+fortran~ilp64+locking+pic+shared build_system=makefile patches:=9968625 symbol_suffix=none threads=none arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   3auvrtg      ^pflogger@1.16.1~ipo+mpi build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   bj6vipe          ^yafyaml@1.5.1~fismahigh~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   zqdxeum      ^udunits@2.2.28+shared build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   2gz56ex  global-workflow-env@1.0.0~python build_system=bundle arch=linux-almalinux9-skylake
+ -   ehdmyux      ^bacio@2.6.0~ipo+pic~shared build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   xas2zp6      ^bufr@12.1.0~ipo+python+shared+utils build_system=cmake build_type=Release generator=make test_files=none arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   2t7qt6w      ^cdo@2.5.2~curl~external-grib1+fftw3+hdf5+libxml2~magics+netcdf+openmp+proj+szip+udunits2 build_system=autotools grib2=eccodes arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   kttfg4s          ^libaec@1.0.6~ipo+shared build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   vkbre5b          ^proj@9.4.1+curl~ipo~pic+shared~tiff build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   ebcdpdg      ^g2@3.5.1~ipo+pic~shared+w3emc build_system=cmake build_type=Release generator=make precision:=4,d arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   3ukn5tu          ^libpng@1.6.37~ipo+pic build_system=cmake build_type=Release generator=make libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   e4uqant      ^g2tmpl@1.13.0~ipo~shared build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   g2wrces      ^gh@2.74.2 build_system=go arch=linux-almalinux9-skylake
+ -   vck2zhg          ^go@1.24.4 build_system=generic arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   xtfyizt              ^bash@5.2 build_system=autotools patches:=013ec6c,094b4fd,125cacb,155853b,15c93f4,1c48cec,2500a3f,2fb107c,325c268,3882772,3ef9246,45cc5e1,4641dd4,5138f48,6042780,6a090cd,6b4bd92,78b5230,7b9c77d,821a0a4,831b5f2,8334b88,899fbb3,8a2c1c3,96ee1f5,9715344,af90550,b6fc252,c2d1b7b,c3ff732,c7705e0,d1e0566,e12a890,ece0eb5,ef73905,f42f2fe,f95a817 arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   5lknbek              ^go-bootstrap@1.22.12 build_system=generic arch=linux-almalinux9-skylake
+ -   buwg5i7              ^grep@3.11~pcre build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   r4anwva              ^sed@4.9 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   u6drmnl      ^grib-util@1.4.0~ipo~openmp build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   zzg4cpq      ^gsi-ncdiag@1.1.2~ipo+serial build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   n35as7p      ^ip@5.4.0~alltests~deprecated~ipo+openmp+pic~shared build_system=cmake build_type=Release generator=make precision:=4,8,d arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   7h2fsvq      ^landsfcutil@2.4.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   quw3zsv      ^met@12.0.1~graphics+grib2~lidar2nc~modis+openmp+python build_system=autotools arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   2ozgy2e          ^g2c@2.1.0+aec+build_v2_api~ipo+jasper~openjpeg+pic+png~pthreads+utils build_system=cmake build_type=Release generator=make libs:=shared,static arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   lqdu7fq          ^gsl@2.8~external-cblas+pic+shared build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   mqqhl44          ^patchelf@0.17.2 build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   n6wlemr      ^metplus@6.0.0~cycloneplotter~makeplots~plotdataplane~series_analysis~tcmpr_plotter build_system=generic arch=linux-almalinux9-skylake
+ -   mr4xyf2      ^ncio@1.1.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   n3pqvhe      ^nco@5.3.3~doc+openmp build_system=autotools arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   ydxla4x          ^antlr@2.7.7+cxx~java~pic~python build_system=autotools patches:=33897ad arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   z66v5uu      ^nemsio@2.5.5~ipo+mpi build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   2pj2t4w      ^nemsiogfs@2.5.4~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   6sbjhmo      ^prod-util@2.1.1~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   22jyrly      ^sigio@2.3.3~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   x4a4aqk      ^uwtools@2.7.2 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5feew4v          ^iotaa@1.2.3 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vvsepj7          ^py-jsonschema@4.23.0~format-nongpl build_system=python_pip arch=linux-almalinux9-skylake
+ -   ooo4c3c              ^py-hatch-fancy-pypi-readme@23.1.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   hialvbh              ^py-hatch-vcs@0.4.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   jpjxwrk              ^py-jsonschema-specifications@2023.12.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5g6zxnz              ^py-referencing@0.35.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   wwb7duy              ^py-rpds-py@0.20.0 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   4h2rlkn                  ^py-maturin@1.8.3 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   iwwzmje          ^py-lxml@5.2.2~cssselect~html5~htmlsoup build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   qg6ebjr              ^libxslt@1.1.42+crypto~python build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   b6buxz6                  ^libgcrypt@1.11.1 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   4onpn6m                      ^libgpg-error@1.55 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   eddntwn                          ^gawk@5.3.1~nls build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   us5tt3t                              ^gmp@6.3.0+cxx build_system=autotools libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   f5cjaz6                              ^mpfr@3.1.6 build_system=autotools libs:=shared,static patches:=7a6dd71 arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   r6e6q7g      ^w3emc@2.10.0~bufr+extradeps~ipo+pic~shared build_system=cmake build_type=Release generator=make precision:=4,8,d arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   uxsosfv      ^w3nco@2.4.1~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   z5asp7j      ^wgrib2@3.6.0+aec~disable_alarm~disable_timezone~enable_docs+fortran_api~ipo~ipolates+jasper~netcdf~openjpeg+openmp+png+regex+tigge~udf~wmo_validation build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   owuzhph  gmao-swell-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   y3losdh      ^fms@2024.02+deprecated_io+gfs_phys+internal_file_nml~ipo~large_file+openmp+pic+quad_precision~shared~yaml build_system=cmake build_type=Release constants=GFS generator=make patches:=6c08548 precision:=32,64 arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   hxfofns      ^py-click@8.1.7 build_system=python_pip arch=linux-almalinux9-skylake
+ -   hlqovvj      ^py-contourpy@1.3.0 build_system=python_pip arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   5erglb3          ^meson@1.7.0 build_system=python_pip patches:=0f0b1bd arch=linux-almalinux9-skylake
+ -   rr7jmyj          ^py-meson-python@0.16.0 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   jl4p3j6      ^py-dask@2021.3.0+array~bag~dataframe+delayed~diagnostics~distributed build_system=python_pip arch=linux-almalinux9-skylake
+ -   qivsygk          ^py-cloudpickle@2.2.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vzc7ddn          ^py-toolz@0.12.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   dh4njyk      ^py-matplotlib@3.7.4~animation~fonts~latex~movies backend=agg build_system=python_pip arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   xmeiaos          ^freetype@2.13.2+pic+shared build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   yh2bcwn          ^py-certifi@2025.4.26 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vpcnln5          ^py-cycler@0.11.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vc3u3tf          ^py-fonttools@4.39.4 build_system=python_pip arch=linux-almalinux9-skylake
+ -   vw27bv6          ^py-kiwisolver@1.1.0 build_system=python_pip arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   auvozia          ^py-pyparsing@3.0.6 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ptpsqn3          ^qhull@2020.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   e6xdchh      ^py-pkgconfig@1.4.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   uhd6j76      ^py-pycodestyle@2.11.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   lfvqkqs      ^py-requests@2.32.3~socks build_system=python_pip arch=linux-almalinux9-skylake
+ -   wvkbgpu          ^py-charset-normalizer@3.3.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   kbrnycx          ^py-idna@3.3 build_system=python_pip arch=linux-almalinux9-skylake
+ -   aasdl7a      ^py-urllib3@1.26.12~brotli~secure~socks build_system=python_pip arch=linux-almalinux9-skylake
+ -   zla5ku3  gsi-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   dcx5k6j      ^sfcio@1.4.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   3auqvso      ^wrf-io@1.3.0~ipo~openmp build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   kf2g2e3  jedi-fv3-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   2r43ybd  jedi-geos-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   q53y3hu  jedi-mpas-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   xhmdukg      ^jasper@4.2.4~ipo+jpeg~opengl+shared build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   mv76uai          ^libjpeg-turbo@3.0.4~ipo~jpeg8~partial_decoder+pic build_system=cmake build_type=Release generator=make libs:=shared,static arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   b52muvp              ^nasm@2.16.03 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   cgtctmt      ^metis@5.1.0~gdb+int64~ipo~no_warning+real64+shared build_system=cmake build_type=Release generator=make patches:=4991da9,93a7903 arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   jz4toio      ^parallel-netcdf@1.12.3~burstbuffer+cxx~examples+fortran+pic+shared build_system=autotools arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   7mno6wj  jedi-neptune-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   b3pp63n  jedi-ufs-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   wtpqtv7  jedi-um-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   gszlroj      ^ectrans@1.5.0+double_precision+fftw~ipo~mkl+mpi+openmp+single_precision+transi build_system=cmake build_type=RelWithDebInfo generator=make patches:=1799948 arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   4koowox      ^fiat@1.4.1+fckit~ipo+mpi+openmp build_system=cmake build_type=RelWithDebInfo generator=make patches:=0ca3d0d arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   uwnh3ed      ^shumlib@macos_clang_linux_intel_port build_system=makefile commit=84770606669463a54b51f9b8ed65a1d31f105fe9 arch=linux-almalinux9-skylake
+ -   4f4zrp4  madis@4.5+pic~pnetcdf build_system=makefile arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   pgqjhd4  mapl@2.53.0~debug+extdata2g~f2py+fargparse~ipo+pflogger~pfunit~shared+zstd build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   l4xgxjq      ^gftl@1.15.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   uhrpzum      ^hdf5@1.14.5~cxx+fortran+hl~ipo~java~map+mpi+shared~subfiling~szip+threadsafe+tools api=default build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   uan22f5      ^perl@5.40.0+cpanm+opcode+open+shared+threads build_system=generic arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   4ydwflu          ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches:=26090f4,b231fcc arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   mhhrf42  mapl@2.53.4~debug+extdata2g~f2py+fargparse~ipo+pflogger~pfunit~shared+zstd build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   76hqquk  neptune-env@1.5.0~debug~espc build_system=bundle arch=linux-almalinux9-skylake
+ -   hnwi36e      ^libyaml@0.2.5 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   4xtairl      ^mct@2.11.0 build_system=autotools arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   ozerfxf      ^numactl@2.0.18 build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   b7lappv      ^p4est@2.8.7+mpi~openmp build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   v22ycu3      ^py-f90nml@1.4.3 build_system=python_pip arch=linux-almalinux9-skylake
+ -   m46x76m      ^py-python-dateutil@2.8.2 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5oecn67          ^py-six@1.17.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   wnqf5to  neptune-python-env@1.5.0~xnrl build_system=bundle arch=linux-almalinux9-skylake
+ -   i6zp6ty      ^py-arch@7.0.0~numba~tutorial build_system=python_pip arch=linux-almalinux9-skylake
+ -   ryp3kb6          ^py-statsmodels@0.14.1 build_system=python_pip arch=linux-almalinux9-skylake %c,fortran=clang@20.1.5
+ -   l64e5yr              ^py-patsy@0.5.4~splines build_system=python_pip arch=linux-almalinux9-skylake
+ -   vhcz4gy      ^py-fortranformat@2.0.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   eh57uwo      ^py-h5py@3.10.0~mpi build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ximf5qg          ^py-cython@0.29.36 build_system=python_pip patches:=c4369ad arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   4u2ow7k      ^py-netcdf4@1.7.2~mpi build_system=python_pip patches:=255b5ae,2593961 arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   dlcrtkr          ^py-cftime@1.6.4 build_system=python_pip arch=linux-almalinux9-skylake
+ -   prtozvo      ^py-pandas@1.5.3~excel~performance build_system=python_pip arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   2xin7iv          ^py-pytz@2024.2 build_system=python_pip arch=linux-almalinux9-skylake
+ -   rqqi3da      ^py-pybind11@2.13.6+ipo build_system=cmake build_type=Release generator=ninja arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   fp4hvpy      ^py-pyhdf@0.11.4 build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   xh4omw4      ^py-pytest@8.2.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   is5ynvf          ^py-iniconfig@1.1.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ozz4oh3          ^py-pluggy@1.5.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   gtkazmc      ^py-regionmask@0.12.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   htjvlol          ^py-geopandas@1.0.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   74htn5m              ^py-pyogrio@0.9.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   rtro5mp                  ^py-versioneer@0.29+toml build_system=python_pip arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   ga745vx          ^py-pooch@1.7.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   gcr235r              ^py-platformdirs@3.10.0~wheel build_system=python_pip arch=linux-almalinux9-skylake
+ -   mktzyzd          ^py-rasterio@1.4.3 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5zohpsb              ^gdal@3.10.2~archive~armadillo~arrow~avif~basisu~blosc~brunsli~cfitsio~crnlib~cryptopp~csharp+curl~deflate~ecw+expat~filegdb~freexl~fyba+geos~gif~gta~hdf4~hdf5~hdfs~heif~iconv~idb~ipo~java+jpeg~jxl~kdu~kea+lerc~libaec~libcsf~libkml~liblzma~libqb3~libxml2~luratech~lz4~mongocxx~mrsid~mssql_ncli~mssql_odbc~mysql~netcdf~odbc~odbccpp~ogdi~opencad~opencl~opendrive~openexr~openjpeg~openssl~oracle~parquet~pcidsk~pcre2~pdfium~pic+png~podofo~poppler~postgresql~python+qhull~rasterlite2~rdb~sfcgal+shared~spatialite+sqlite3~teigha~tiledb~webp~xercesc~zstd build_system=cmake build_type=Release generator=ninja arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   iaclanm                  ^json-c@0.18~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   b6ez6rk                  ^lerc@4.0.0~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   moswxex                  ^libgeotiff@1.7.1+jpeg+proj+zlib build_system=autotools arch=linux-almalinux9-skylake %c=clang@20.1.5
+ -   d6tl7iq                  ^libtiff@4.7.0+ccitt~ipo~jbig+jpeg~jpeg12~lerc~libdeflate+logluv~lzma+lzw+next~old-jpeg~opengl+packbits~pic~pixarlog+shared+thunder~webp+zlib~zstd build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx=clang@20.1.5
+ -   h3d7hmq              ^py-affine@2.1.0 build_system=python_pip arch=linux-almalinux9-skylake
+ -   ttpzocg              ^py-click-plugins@1.1.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   5ggwa5b              ^py-cligj@0.7.2 build_system=python_pip arch=linux-almalinux9-skylake
+ -   si3iaug      ^py-scipy@1.16.0 build_system=python_pip arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+ -   yynn5zn          ^py-pythran@0.16.1 build_system=python_pip arch=linux-almalinux9-skylake %cxx=clang@20.1.5
+ -   m4hvcuh              ^py-beniget@0.4.1 build_system=python_pip arch=linux-almalinux9-skylake
+ -   rjyumbt              ^py-gast@0.5.4 build_system=python_pip arch=linux-almalinux9-skylake
+ -   g7rzsiv              ^py-ply@3.11 build_system=python_pip arch=linux-almalinux9-skylake
+ -   jwmq2wj      ^py-xarray@2023.7.0~io~parallel build_system=python_pip arch=linux-almalinux9-skylake
+ -   5qwu3ni  soca-env@1.0.0 build_system=bundle arch=linux-almalinux9-skylake
+ -   qpf7r43  ufs-srw-app-env@1.0.0~python build_system=bundle arch=linux-almalinux9-skylake
+ -   tx5d7go      ^gfsio@1.4.2~ipo build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   zmket4s  ufs-weather-model-env@1.0.0~debug~python build_system=bundle arch=linux-almalinux9-skylake
+ -   olj5ptt      ^cprnc@1.0.8~ipo build_system=cmake build_type=Release generator=make patches:=ccba71d arch=linux-almalinux9-skylake %fortran=clang@20.1.5
+ -   anzmb3x      ^scotch@7.0.4+compression+esmumps~int64~ipo+metis+mpi~mpi_thread+noarch~shared~threads build_system=cmake build_type=Release generator=make arch=linux-almalinux9-skylake %c,cxx,fortran=clang@20.1.5
+
+real    25m35.242s
+user    24m35.148s
+sys     0m57.094s
+
