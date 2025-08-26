@@ -2193,6 +2193,7 @@ class SpackSolverSetup:
 
             for input_spec in requirement_grp:
                 spec = spack.spec.Spec(input_spec)
+                spec.replace_hash()
                 if not spec.name:
                     spec.name = pkg_name
                 spec.attach_git_version_lookup()
@@ -2420,6 +2421,7 @@ class SpackSolverSetup:
         transitive: bool = True,
         expand_hashes: bool = False,
         concrete_build_deps=False,
+        include_runtimes=False,
         required_from: Optional[str] = None,
         context: Optional[SourceContext] = None,
     ) -> List[AspFunction]:
@@ -2437,6 +2439,7 @@ class SpackSolverSetup:
                 transitive=transitive,
                 expand_hashes=expand_hashes,
                 concrete_build_deps=concrete_build_deps,
+                include_runtimes=include_runtimes,
                 context=context,
             )
         except RuntimeError as exc:
@@ -2454,6 +2457,7 @@ class SpackSolverSetup:
         transitive: bool = True,
         expand_hashes: bool = False,
         concrete_build_deps: bool = False,
+        include_runtimes: bool = False,
         context: Optional[SourceContext] = None,
     ) -> List[AspFunction]:
         """Return a list of clauses for a spec mandates are true.
@@ -2466,6 +2470,8 @@ class SpackSolverSetup:
             expand_hashes: if True, descend into hashes of concrete specs (default False)
             concrete_build_deps: if False, do not include pure build deps of concrete specs
                 (as they have no effect on runtime constraints)
+            include_runtimes: generate full dependency clauses from runtime libraries that
+                are ommitted from the solve.
             context: tracks what constraint this clause set is generated for (e.g. a
                 `depends_on` constraint in a package.py file)
 
@@ -2607,7 +2613,8 @@ class SpackSolverSetup:
                     )
                     constraint_spec = spack.spec.Spec(f"{dep.name}@{dep.version}")
                     self.spec_versions(constraint_spec)
-                    continue
+                    if not include_runtimes:
+                        continue
 
                 # libc is also solved again by clingo, but in this case the compatibility
                 # is not encoded in the parent node - so we need to emit explicit facts
@@ -2618,7 +2625,8 @@ class SpackSolverSetup:
                             edge_clauses.append(
                                 fn.attr("compatible_libc", spec.name, libc.name, libc.version)
                             )
-                    continue
+                    if not include_runtimes:
+                        continue
 
                 # We know dependencies are real for concrete specs. For abstract
                 # specs they just mean the dep is somehow in the DAG.
@@ -2781,7 +2789,7 @@ class SpackSolverSetup:
 
         Results are ordered most to least recent.
         """
-        supported = []
+        supported, unsupported = [], []
 
         for target in targets:
             try:
@@ -2792,11 +2800,11 @@ class SpackSolverSetup:
                     )
                 supported.append(target)
             except spack.vendor.archspec.cpu.UnsupportedMicroarchitecture:
-                continue
+                unsupported.append(target)
             except ValueError:
-                continue
+                unsupported.append(target)
 
-        return sorted(supported, reverse=True)
+        return supported, unsupported
 
     def platform_defaults(self):
         self.gen.h2("Default platform")
@@ -2871,20 +2879,24 @@ class SpackSolverSetup:
         uarch = spack.vendor.archspec.cpu.TARGETS.get(platform.default)
         best_targets = {uarch.family.name}
         for compiler in self.possible_compilers:
-            supported = self._supported_targets(compiler.name, compiler.version, candidate_targets)
-
-            if not supported:
-                continue
+            supported, unsupported = self._supported_targets(
+                compiler.name, compiler.version, candidate_targets
+            )
 
             for target in supported:
                 best_targets.add(target.name)
+                self.gen.fact(fn.target_supported(compiler.name, compiler.version, target.name))
+
+            if supported:
                 self.gen.fact(
-                    fn.compiler_supports_target(compiler.name, compiler.version, target.name)
+                    fn.target_supported(compiler.name, compiler.version, uarch.family.name)
                 )
 
-            self.gen.fact(
-                fn.compiler_supports_target(compiler.name, compiler.version, uarch.family.name)
-            )
+            for target in unsupported:
+                self.gen.fact(
+                    fn.target_not_supported(compiler.name, compiler.version, target.name)
+                )
+
             self.gen.newline()
 
         i = 0  # TODO compute per-target offset?

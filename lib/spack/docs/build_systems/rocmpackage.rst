@@ -2,6 +2,10 @@
 
    SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
+.. meta::
+   :description lang=en:
+      Learn about the ROCmPackage helper in Spack, which provides standard variants, dependencies, and conflicts for building packages that target AMD GPUs.
+
 .. _rocmpackage:
 
 ------
@@ -13,7 +17,7 @@ it provides standard variants, dependencies, and conflicts to facilitate buildin
 packages targeting AMD GPUs.
 
 You can find the source for this package (and suggestions for setting up your ``packages.yaml`` file) at
-`<https://github.com/spack/spack/blob/develop/lib/spack/spack/build_systems/rocm.py>`__.
+`<https://github.com/spack/spack-packages/blob/develop/repos/spack_repo/builtin/build_systems/rocm.py>`__.
 
 ^^^^^^^^
 Variants

@@ -2,6 +2,10 @@
 
    SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
+.. meta::
+   :description lang=en:
+      Advanced topics in Spack packaging, covering packages with multiple build systems, making packages discoverable with spack external find, and specifying ABI compatibility.
+
 .. list-table::
    :widths: 25 25 25 25
    :header-rows: 0
@@ -401,7 +405,7 @@ the definition of the ``executables`` attribute is still required):
 
 This method takes as input a set of discovered executables (which match
 those specified by the user) as well as a common prefix shared by all
-of those executables. The function must return one or more :py:class:`spack.spec.Spec` associated
+of those executables. The function must return one or more :py:class:`spack.package.Spec` associated
 with the executables (it can also return ``None`` to indicate that no
 provided executables are associated with the package).
 

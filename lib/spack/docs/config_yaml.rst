@@ -4,6 +4,10 @@
 
 .. _config-yaml:
 
+.. meta::
+   :description lang=en:
+      A detailed guide to the config.yaml file in Spack, which allows you to set core configuration options like installation paths, build parallelism, and trusted sources.
+
 ============================
 Spack Settings (config.yaml)
 ============================
@@ -36,7 +40,7 @@ The default is ``$spack/opt/spack``.
 By default, Spack installs all packages into a unique directory relative to the install
 tree root with the following layout:
 
-.. code-block::
+.. code-block:: text
 
    {architecture}/{compiler.name}-{compiler.version}/{name}-{version}-{hash}
 

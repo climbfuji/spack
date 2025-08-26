@@ -2,6 +2,10 @@
 
    SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
+.. meta::
+   :description lang=en:
+      An overview of the Autotools build system in Spack for packages that use GNU Autotools.
+
 .. _autotoolspackage:
 
 ---------
@@ -495,7 +499,7 @@ Defining ``with_or_without_verbs`` overrides the behavior of a
 ``--with-openib`` for older versions of the package and specifying an
 alternative dependency name:
 
-.. code-block::
+.. code-block:: text
 
    --with-openib=</path/to/rdma-core>
 

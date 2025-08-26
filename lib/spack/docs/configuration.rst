@@ -2,6 +2,10 @@
 
    SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
+.. meta::
+   :description lang=en:
+      Learn how to configure Spack using its flexible YAML-based system. This guide covers the different configuration scopes and provides links to detailed documentation for each configuration file, helping you customize Spack to your specific needs.
+
 .. _configuration:
 
 ===================
@@ -48,8 +52,7 @@ corresponding to its name. So, ``config.yaml`` starts with ``config:``,
 .. tip::
 
    Validation and autocompletion of Spack config files can be enabled in
-   your editor with the YAML language server. See `spack/schemas
-   <https://github.com/spack/schemas>`_ for more information.
+   your editor using `JSON Schema Store <https://www.schemastore.org/>`_.
 
 .. _configuration-scopes:
 
@@ -731,7 +734,9 @@ And one that allows you to move the default cache location:
 * ``SPACK_USER_CACHE_PATH``: Override the default path to use for user data
   (misc_cache, tests, reports, etc.)
 
-With these settings, if you want to isolate Spack in a CI environment, you can do this::
+With these settings, if you want to isolate Spack in a CI environment, you can do this:
 
-  export SPACK_DISABLE_LOCAL_CONFIG=true
-  export SPACK_USER_CACHE_PATH=/tmp/spack
+.. code-block:: console
+
+  $ export SPACK_DISABLE_LOCAL_CONFIG=true
+  $ export SPACK_USER_CACHE_PATH=/tmp/spack
