@@ -239,5 +239,3 @@ config:
     concretise: concretize
     containerise: containerize
     rm: remove
-  extensions:
-  - ${SPACK_STACK_DIR}/spack-ext/lib/jcsda-emc/spack-stack
