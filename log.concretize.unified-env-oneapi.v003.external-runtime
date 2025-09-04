@@ -1,0 +1,2 @@
+==> Error: failed to concretize `jedi-geos-env ^esmf@=8.6.1`, `geos-gcm-env ^esmf@=8.6.1`, `gsi-env ^crtm@=3.1.2`, `gmao-swell-env ^crtm@=v2.4.1-jedi.2`, ..., `neptune-python-env ^esmf@=8.9.0` for the following reasons:
+     1. Only external, or concrete, compilers are allowed for the fortran language

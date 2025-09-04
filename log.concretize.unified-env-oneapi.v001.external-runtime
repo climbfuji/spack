@@ -1,0 +1,2 @@
+==> Error: failed to concretize `jedi-ufs-env ^esmf@=8.8.0`, `ufs-weather-model-env ^crtm@=3.1.2 ^esmf@=8.8.0`, `gsi-env ^crtm@=3.1.2`, `neptune-env ^esmf@=8.9.0`, ..., `esmf@=8.6.1` for the following reasons:
+     1. Only external, or concrete, compilers are allowed for the fortran language

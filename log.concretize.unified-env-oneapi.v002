@@ -1,0 +1,329 @@
+==> Concretized 24 specs:
+ -   t4jn73u  crtm@v2.4.1-jedi.2+fix~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   dmen353      ^cmake@3.31.8~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   n3rb2cg          ^curl@8.11.1~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   jov3mmh              ^nghttp2@1.65.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+[e]  igrmpzp          ^gcc@11.5.0~binutils+bootstrap~graphite~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++' platform=linux os=almalinux9 target=skylake
+[e]  odpfvwc          ^gcc-runtime@11.5.0 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   s6jcwht          ^ncurses@6.5~symlinks+termlib abi=none build_system=autotools patches:=7a351bc platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   6iejsji          ^zlib@1.3.1+optimize+pic+shared build_system=makefile platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   tf56dks      ^compiler-wrapper@1.0 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   hs6udcj      ^ecbuild@3.7.2~fismahigh~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+[e]  hahvpcq      ^git-lfs@3.4.1 build_system=makefile platform=linux os=almalinux9 target=skylake
+[e]  j2cwen2      ^glibc@2.34 build_system=autotools platform=linux os=almalinux9 target=skylake
+ -   o5e2gpm      ^gmake@4.4.1~guile build_system=generic platform=linux os=almalinux9 target=skylake %c=gcc@11.5.0
+[e]  m37t7jp      ^intel-oneapi-compilers@2025.1.1~amd+envmods~nvidia build_system=generic platform=linux os=almalinux9 target=skylake
+ -   mxotsyd      ^intel-oneapi-runtime@2025.1.1 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   6i2e5o2      ^netcdf-fortran@4.6.1~doc+parallel_tests+pic+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   ytwdqf4  crtm@3.1.2+fix~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   rwv6gbz      ^crtm-fix@3.1.2.0+big_endian~little_endian+netcdf~testfiles build_system=generic platform=linux os=almalinux9 target=skylake
+ -   rlxihnt  esmf@8.6.1~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+[e]  3fnvyff      ^intel-oneapi-mpi@2021.15~classic-names+envmods~external-libfabric~generic-names~ilp64 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   rwhvt7t      ^netcdf-c@4.9.2+blosc~byterange+dap~fsync~hdf4~ipo~jna~logging+mpi~nczarr_zip+optimize~parallel-netcdf+parallel_tests+pic+shared~szip+zstd build_system=cmake build_type=Release generator=make patches:=0161eb8,3b09181 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   ibai53q          ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   miv2zqj              ^diffutils@3.10 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   l6yox4x          ^c-blosc@1.21.6+avx2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   ks5zgw2              ^lz4@1.10.0+pic build_system=makefile libs:=shared,static platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   k4gtqf4              ^snappy@1.2.1~ipo+pic+shared build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   i6ukw4n          ^libxml2@2.13.5~http+pic~python+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   kqofgx4              ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   hgqbmd4          ^m4@1.4.20+sigsegv build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   6hooc6h              ^libsigsegv@2.14 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ugzyyyu          ^zstd@1.5.7+pic+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   pzybfmf      ^parallelio@2.6.2+fortran~ipo~logging+mpi~ncint+pnetcdf+shared~timing build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   sa3p6ny      ^py-mpi4py@4.0.1 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   3zgx2l3          ^py-cython@3.0.12 build_system=python_pip platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   myrqxuj      ^py-numpy@1.26.4 build_system=python_pip patches:=873745d platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   f2dk4dv          ^py-meson-python@0.16.0 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   vdhrpjg              ^py-pyproject-metadata@0.9.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   6wp43fm      ^py-pip@25.1.1 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   7woeh5f      ^py-pyyaml@6.0.2+libyaml build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   qamabau      ^py-setuptools@69.2.0 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   uzaf2kl      ^py-wheel@0.45.1 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   h2xlvju      ^python@3.11.11+bz2~crypt+ctypes+dbm~debug+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches:=13fa8bf,b0615b2,ebdca64,f2fd060 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   yj46qm2          ^expat@2.7.1~libbsd build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   vpgy5jw          ^gdbm@1.23 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   vthh3f7          ^gettext@0.23.1+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   uyxb7nf              ^tar@1.35 build_system=autotools zip=pigz platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   d47bdec                  ^pigz@2.8 build_system=makefile platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   efx7urf          ^libffi@3.4.8 build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   umy5oul          ^openssl@3.4.1~docs+shared build_system=generic certs=system platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   nphvhgh          ^pkg-config@0.29.2+internal_glib build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   bcynyzc          ^readline@8.2 build_system=autotools patches:=1ea4349,24f587b,3d9885e,5911a5b,622ba38,6c8adf8,758e2ec,79572ee,a177edc,bbf97f1,c7b45ff,e0013d9,e065038 platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   owhb2ey          ^sqlite@3.46.0+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ucbsaly          ^util-linux-uuid@2.41 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   7lsbcfv          ^xz@5.6.3~pic build_system=autotools libs:=shared,static platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   wtofcwk      ^python-venv@1.0 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   hrwvd6o  esmf@8.8.0~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   rqo7sg5  esmf@8.9.0~debug~external-lapack+external-parallelio+mpi+netcdf~pnetcdf+python+shared~xerces build_system=makefile esmf_comm=auto esmf_os=auto esmf_pio=auto patches:=f63d405 snapshot=none platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   hl52zki  ewok-env@1.0.0~cylc+ecflow~ewok~mysql~r2d2~solo build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   te3l6dc      ^awscli-v2@2.24.24~examples build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   43ktpku          ^py-awscrt@0.20.9 build_system=python_pip platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   zwgk5n6          ^py-colorama@0.4.6 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   l7g7hes          ^py-cryptography@42.0.8 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ywql6dm              ^py-cffi@1.17.1 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ouxyysu                  ^py-pycparser@2.21 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   lcy5ano              ^py-setuptools-rust@1.9.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   kxxsd4m                  ^py-semantic-version@2.10.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   xjn2t6g              ^rust@1.85.0~dev~docs+src build_system=generic platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   kjuyn7c                  ^libgit2@1.8.0~curl~ipo+mmap+ssh build_system=cmake build_type=Release generator=make https=system platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   qebxvgd                      ^pcre@8.45~jit+multibyte+pic+shared+static+utf build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   upcmb52                  ^libssh2@1.11.1+shared build_system=autotools crypto=openssl platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   rtei7ko                  ^rust-bootstrap@1.85.0 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   iuguhqo          ^py-distro@1.8.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   stkmf5b          ^py-docutils@0.19 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ulvd3bv          ^py-flit-core@3.8.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   66fp2tj          ^py-jmespath@1.0.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ca5hut5          ^py-prompt-toolkit@3.0.38 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   77b7oxk              ^py-wcwidth@0.2.7 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   4phzzog      ^ecflow@5.11.4~ipo~pic+ssl~static_boost+ui build_system=cmake build_type=Release generator=make patches:=1bd51d9,2e6d6d0 platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   dhroztc          ^boost@1.84.0~atomic+chrono~clanglibcpp~cobalt~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem~graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi~mqtt5+multithreaded~nowide~numpy+pic+program_options+python~random+regex+serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~url~versionedlayout~wave build_system=generic cxxstd=17 patches:=8e3faa2,a440f96,b8569d7 visibility=hidden platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   xokv7og          ^qt@5.15.16~dbus~debug~doc~examples~framework~gtk~gui~location~opengl~phonon+shared+sql+ssl+tools~webkit build_system=generic patches:=2081e9c,51aeba5,75bcb42,78c70fb,7f34d48,84b0991,9378afd platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   t2pk2ie              ^double-conversion@3.3.0~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   dr3lyzw              ^glib@2.78.3~libmount~strip build_system=meson buildtype=release default_library:=shared tracing:=none platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   n3ri4c6                  ^elfutils@0.192~debuginfod+exeprefix+nls build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   gdi4mnv              ^harfbuzz@11.2.1~graphite2~strip build_system=meson buildtype=release default_library:=shared platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   gtpsc4f                  ^cairo@1.17.4~X~fc+ft+gobject+pdf+pic~png+shared~svg build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   5dtgqjp                      ^pixman@0.44.0+pic+shared~strip build_system=meson buildtype=release default_library:=shared platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   imqeecq                      ^which@2.21 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   373xoq2                  ^gobject-introspection@1.78.1~strip build_system=meson buildtype=release default_library:=shared platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   k4zp2zz              ^icu4c@74.2 build_system=autotools cxxstd=11 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   dtmrszc              ^libmng@2.0.3~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   bghad72                  ^lcms@2.16 build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   m3apkdz              ^libtiff@4.7.0+ccitt~ipo~jbig+jpeg~jpeg12~lerc~libdeflate+logluv~lzma+lzw+next~old-jpeg~opengl+packbits~pic~pixarlog+shared+thunder~webp+zlib~zstd build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   hghsdzm              ^pcre2@10.44~jit+multibyte+pic build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   go2hdpw      ^jedi-base-env@1.0.0~bufrquery+fftw+hdf4 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   bjjotbm          ^bison@3.8.2~color build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   lur7rbe          ^eccodes@2.33.0+aec~fortran~ipo~memfs+netcdf~openmp+png~pthreads+shared+tools build_system=cmake build_type=Release extra_definitions:=none generator=make jp2k=openjpeg platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   ijhf5yx              ^openjpeg@2.3.1~codec~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   acx4cks          ^eckit@1.28.3+admin+aio~curl~fismahigh~ipo~jemalloc+mpi+openmp+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression:=bzip2,lz4 generator=make linalg:=eigen,lapack platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   nvfopxz          ^ecmwf-atlas@0.40.0+eigen+fckit+fftw~fismahigh~ipo+openmp+shared+tesselation+trans build_system=cmake build_type=RelWithDebInfo generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   e3dwhxk          ^eigen@3.4.0~ipo~nightly~rocm build_system=cmake build_type=RelWithDebInfo generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   b5imi3f          ^fckit@0.13.2+eckit~fismahigh~ipo+openmp+shared build_system=cmake build_type=RelWithDebInfo generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   mv4htas          ^flex@2.6.4+lex~nls build_system=autotools patches:=f8b85a0 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   tm4w2ix              ^findutils@4.10.0 build_system=autotools patches:=440b954 platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   7vsfim7              ^help2man@1.49.3 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   gsifwvi          ^gsl-lite@0.41.0~cmake_export_package_registry~compat_header~cuda_tests~examples~ipo~legacy_headers~static_analysis_demos~tests build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   wqf7u5r          ^hdf@4.2.15+external-xdr~fortran~java~netcdf+pic~shared~szip build_system=autotools patches:=49733dd,5434f29,ce75518,d54592d,f7d67e8 platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   2up6vf7              ^libtirpc@1.3.3~gssapi build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   dn4g3lq                  ^krb5@1.21.3+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   hl4kjqu                      ^libedit@3.1-20240808 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   gbanyf6          ^jedi-cmake@1.4.0~ipo build_system=cmake build_type=Release commit=36fc99bdff5d3d8835480b37a3dcc75e5f8da256 generator=make platform=linux os=almalinux9 target=skylake
+ -   d6n27al          ^ncview@2.1.9 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   lzvjbh2              ^libxaw@1.0.16 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   32v7zdv                  ^libx11@1.8.11 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   zjtwbsw                      ^inputproto@2.3.2 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   vdfuw3e                      ^kbproto@1.0.7 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   bcg5ayl                      ^libxcb@1.17.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ucs4dbe                          ^libpthread-stubs@0.5 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   5gh3zl2                          ^libxau@1.0.12 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   xvrjegr                          ^libxdmcp@1.1.5 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   4vakn7v                          ^xcb-proto@1.17.0 build_system=autotools platform=linux os=almalinux9 target=skylake
+ -   g2p4trz                      ^xtrans@1.6.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   rlb7ezq                  ^libxext@1.3.6 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   cmxnrjc                  ^libxpm@3.5.17 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   argdjp4                  ^libxt@1.3.1 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   2tqtszn                      ^libice@1.1.2 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   aoigfko                          ^libbsd@0.10.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c=gcc@11.5.0
+ -   xzt4zzb                      ^libsm@1.2.6 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   xlisggr                  ^util-macros@1.20.1 build_system=autotools platform=linux os=almalinux9 target=skylake
+ -   tmv2kml                  ^xextproto@7.3.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   w3gpa5p                  ^xproto@7.0.31 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ebr2ph6              ^libxmu@1.2.1 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   hd7gdji          ^netcdf-cxx4@4.3.1~doc~ipo+pic+shared~tests build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   acn6z5e          ^nlohmann-json@3.11.3~ipo+multiple_headers build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   spi5ba5          ^nlohmann-json-schema-validator@2.3.0~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   xzjagjb          ^odc@1.6.1~fortran~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   ytm72xe          ^py-eccodes@1.5.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   hn557fe              ^py-attrs@23.1.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   b4fhwsj              ^py-findlibs@0.0.2 build_system=python_pip patches:=6701e0e platform=linux os=almalinux9 target=skylake
+ -   s4wgxr3      ^py-boto3@1.34.162 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   3uxenc7          ^py-botocore@1.34.162 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ls2j6f3          ^py-s3transfer@0.10.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   34ojxcw      ^py-cartopy@0.24.1~ows+plotting build_system=python_pip platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   gdauewm          ^py-packaging@25.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   2ofzifc          ^py-pillow@11.1.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~xcb+zlib build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   yb36tc2          ^py-pyproj@3.7.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   p5sbesp          ^py-pyshp@2.3.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   x5b76jo          ^py-setuptools-scm@8.2.1+toml build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   n2vbtin          ^py-shapely@2.1.1 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   iz2lm6p              ^geos@3.13.1~ipo+shared build_system=cmake build_type=Release generator=ninja platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   i4munhr      ^py-gitpython@3.1.43 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   uppvrak          ^py-gitdb@4.0.9 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   tmchip3              ^py-smmap@5.0.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   77uvi32      ^py-globus-cli@3.16.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   3xdbl77          ^py-globus-sdk@3.25.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   3apf5ae              ^py-pyjwt@2.4.0+crypto build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   twjegql      ^py-jinja2@3.1.4~i18n build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ktun55l          ^py-markupsafe@2.1.3 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   m2wtgwn      ^py-ruamel-yaml@0.17.16 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   z7fc2h3      ^py-ruamel-yaml-clib@0.2.12 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   efpoefs  geos-gcm-env@1.1.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   gzcgk4b      ^base-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   kymc7it          ^cloc@2.00 build_system=generic platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+[e]  t6tgfzu          ^git@2.43.5+man+nls+perl+subtree~svn~tcltk build_system=autotools platform=linux os=almalinux9 target=skylake
+ -   jaouozd          ^nccmp@1.9.0.1~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   ubayszh          ^wget@1.24.5~libpsl~pcre~python+zlib build_system=autotools ssl=openssl platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   nabxdts      ^fargparse@1.9.0~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   ghj4yij      ^gftl-shared@1.10.0~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+[e]  xzrxanv      ^intel-oneapi-mkl@2025.1~cluster+envmods~gfortran~ilp64+shared build_system=generic mpi_family=none threads=none platform=linux os=almalinux9 target=skylake
+ -   6whci63      ^mepo@2.4.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   viqkng3          ^py-hatchling@1.27.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   m22yisu              ^py-pathspec@0.12.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ub2z6nj              ^py-trove-classifiers@2025.5.9.12 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   yic4bgg                  ^py-calver@2022.6.26 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   62ee7ki      ^pflogger@1.16.1~ipo+mpi build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   envhex6          ^yafyaml@1.5.1~fismahigh~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   c7a7jsl      ^udunits@2.2.28+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   bsnxyhd  global-workflow-env@1.0.0~python build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   2ceudgk      ^bacio@2.6.0~ipo+pic~shared build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   waqubcr      ^bufr@12.1.0~ipo+python+shared+utils build_system=cmake build_type=Release generator=make test_files=none platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   liwtnrg      ^cdo@2.5.2~curl~external-grib1+fftw3+hdf5+libxml2~magics+netcdf+openmp+proj+szip+udunits2 build_system=autotools grib2=eccodes platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   twt3ivz          ^libaec@1.0.6~ipo+shared build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   hwb5lyo          ^proj@9.4.1+curl~ipo~pic+shared~tiff build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   kicfmos      ^g2@3.5.1~ipo+pic~shared+w3emc build_system=cmake build_type=Release generator=make precision:=4,d platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   c7hcz55          ^libpng@1.6.37~ipo+pic build_system=cmake build_type=Release generator=make libs:=shared,static platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   hyka5kr      ^g2tmpl@1.13.0~ipo~shared build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   awb2z4k      ^gh@2.74.2 build_system=go platform=linux os=almalinux9 target=skylake
+ -   jr3gcgn          ^go@1.24.4 build_system=generic platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   ycuyjoo              ^bash@5.2 build_system=autotools patches:=013ec6c,094b4fd,125cacb,155853b,15c93f4,1c48cec,2500a3f,2fb107c,325c268,3882772,3ef9246,45cc5e1,4641dd4,5138f48,6042780,6a090cd,6b4bd92,78b5230,7b9c77d,821a0a4,831b5f2,8334b88,899fbb3,8a2c1c3,96ee1f5,9715344,af90550,b6fc252,c2d1b7b,c3ff732,c7705e0,d1e0566,e12a890,ece0eb5,ef73905,f42f2fe,f95a817 platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   5lknbek              ^go-bootstrap@1.22.12 build_system=generic platform=linux os=almalinux9 target=skylake
+ -   fdicep3              ^grep@3.11~pcre build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   u5uezcx              ^sed@4.9 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   qsgopmp      ^grib-util@1.4.0~ipo~openmp build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   vwzhmzq      ^gsi-ncdiag@1.1.2~ipo+serial build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   vdenj2d      ^ip@5.4.0~alltests~deprecated~ipo+openmp+pic~shared build_system=cmake build_type=Release generator=make precision:=4,8,d platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   wwxuzzv      ^landsfcutil@2.4.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   cqpzvsy      ^met@12.0.1~graphics+grib2~lidar2nc~modis+openmp+python+shared-intel build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   ysufo36          ^g2c@2.1.0+aec+build_v2_api~ipo+jasper~openjpeg+pic+png~pthreads+utils build_system=cmake build_type=Release generator=make libs:=shared,static platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   mlvqfub          ^gsl@2.8~external-cblas+pic+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   wjc42oz          ^patchelf@0.17.2 build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   g6bddgy      ^metplus@6.0.0~cycloneplotter~makeplots~plotdataplane~series_analysis~tcmpr_plotter build_system=generic platform=linux os=almalinux9 target=skylake
+ -   pmcfbtq      ^ncio@1.1.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   d52iv6h      ^nco@5.3.3~doc+openmp build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   puuoklr          ^antlr@2.7.7+cxx~java~pic~python build_system=autotools patches:=33897ad platform=linux os=almalinux9 target=skylake %c,cxx=gcc@11.5.0
+ -   gs4jsoj      ^nemsio@2.5.5~ipo+mpi build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   e4spp6c      ^nemsiogfs@2.5.4~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   aunnmyv      ^prod-util@2.1.1~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   jea2xoe      ^sigio@2.3.3~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   hxrzvql      ^uwtools@2.7.2 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   awvztec          ^iotaa@1.2.3 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   fc3cs2x          ^py-jsonschema@4.23.0~format-nongpl build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   xuw6726              ^py-hatch-fancy-pypi-readme@23.1.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   mfy54e5              ^py-hatch-vcs@0.4.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   52rslko              ^py-jsonschema-specifications@2023.12.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   lwt7mti              ^py-referencing@0.35.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   wwutovc              ^py-rpds-py@0.20.0 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   khuigzj                  ^py-maturin@1.8.3 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=gcc@11.5.0
+ -   nijwain          ^py-lxml@5.2.2~cssselect~html5~htmlsoup build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ko6qvd3              ^libxslt@1.1.42+crypto~python build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   b2mig7g                  ^libgcrypt@1.11.1 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   q7df3be                      ^libgpg-error@1.55 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   4xtvnvu                          ^gawk@5.3.1~nls build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   y5mcogf                              ^gmp@6.3.0+cxx build_system=autotools libs:=shared,static platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   qcogpoc                              ^mpfr@3.1.6 build_system=autotools libs:=shared,static patches:=7a6dd71 platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   hyxh2fc      ^w3emc@2.10.0~bufr+extradeps~ipo+pic~shared build_system=cmake build_type=Release generator=make precision:=4,8,d platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   lsmp3r3      ^w3nco@2.4.1~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   mh4tnhi      ^wgrib2@3.6.0+aec~disable_alarm~disable_timezone~enable_docs+fortran_api~ipo~ipolates+jasper~netcdf~openjpeg+openmp+png+regex+tigge~udf~wmo_validation build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   ieil3mw  gmao-swell-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   oeworl5      ^fms@2024.02+deprecated_io+gfs_phys+internal_file_nml~ipo~large_file+openmp+pic+quad_precision~shared~yaml build_system=cmake build_type=Release constants=GFS generator=make patches:=6c08548 precision:=32,64 platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   ssiu6er      ^py-click@8.1.8 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   rqyuisj      ^py-contourpy@1.3.0 build_system=python_pip platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   zimo6a6          ^meson@1.7.0 build_system=python_pip patches:=0f0b1bd platform=linux os=almalinux9 target=skylake
+ -   pkyn73u      ^py-dask@2021.3.0+array~bag~dataframe+delayed~diagnostics~distributed build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ioxp766          ^py-cloudpickle@2.2.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   demvt3w          ^py-toolz@0.12.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   5mlejvc      ^py-matplotlib@3.7.4~animation~fonts~latex~movies backend=agg build_system=python_pip platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   dsxqvp5          ^freetype@2.13.2+pic+shared build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   3ziu4ql          ^py-certifi@2025.4.26 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   wt6blqm          ^py-cycler@0.11.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   syf2gch          ^py-fonttools@4.39.4 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   veonv2h          ^py-kiwisolver@1.1.0 build_system=python_pip platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   5unfsac          ^py-pyparsing@3.1.2 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   5k7s2qk          ^qhull@2020.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   eumfqta      ^py-pkgconfig@1.4.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   oz54nri      ^py-pycodestyle@2.11.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   mkmhvqo      ^py-requests@2.32.3~socks build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   h26orsc          ^py-charset-normalizer@3.3.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   bubtb6j          ^py-idna@3.4 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   tutxawy      ^py-urllib3@1.26.20~brotli~secure~socks build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   l2qbjps  gsi-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   oba7s4v      ^sfcio@1.4.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   ndvpsag      ^wrf-io@1.3.0~ipo~openmp build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   uzys7st  jedi-fv3-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   g3v53qz  jedi-geos-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   2ps6rwg  jedi-mpas-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   vrscc6a      ^jasper@4.2.4~ipo+jpeg~opengl+shared build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   urjlva4          ^libjpeg-turbo@3.0.4~ipo~jpeg8~partial_decoder+pic build_system=cmake build_type=Release generator=make libs:=shared,static platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   kguagjn              ^nasm@2.16.03 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   j7ra226      ^metis@5.1.0~gdb+int64~ipo~no_warning+real64+shared build_system=cmake build_type=Release generator=make patches:=4991da9,93a7903 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   5a5lvcq      ^parallel-netcdf@1.12.3~burstbuffer+cxx~examples+fortran+pic+shared+shared-intel build_system=autotools patches:=fff15ea platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   fnfgrwi  jedi-neptune-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   uj7fiy3  jedi-ufs-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   7kmiymq  jedi-um-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   ph55pux      ^ectrans@1.5.0+double_precision~fftw~ipo+mkl+mpi+openmp+single_precision+transi build_system=cmake build_type=RelWithDebInfo generator=make patches:=1799948 platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   q6dhtdb      ^fiat@1.4.1+fckit~ipo+mpi+openmp build_system=cmake build_type=RelWithDebInfo generator=make patches:=0ca3d0d platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   petnpgq      ^shumlib@macos_clang_linux_intel_port build_system=makefile commit=84770606669463a54b51f9b8ed65a1d31f105fe9 platform=linux os=almalinux9 target=skylake
+ -   jxwpuap  madis@4.5+pic~pnetcdf build_system=makefile platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   oa5kpjp  mapl@2.53.0~debug+extdata2g~f2py+fargparse~ipo+pflogger~pfunit~shared+zstd build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   5gnj5uh      ^gftl@1.15.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   27c5wto      ^hdf5@1.14.5~cxx+fortran+hl~ipo~java~map+mpi+shared~subfiling~szip+threadsafe+tools api=default build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   3anjru6      ^perl@5.40.0+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   tf3omxr          ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches:=26090f4,b231fcc platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   iks5v3o  mapl@2.53.4~debug+extdata2g~f2py+fargparse~ipo+pflogger~pfunit~shared+zstd build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   uoymwno  neptune-env@1.5.0~debug~espc build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   z7w2skc      ^libyaml@0.2.5 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   d7x5qyl      ^mct@2.11.0 build_system=autotools platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   w2lac2l      ^numactl@2.0.18 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+[e]  p2zevx4          ^autoconf@2.69 build_system=autotools patches:=7793209 platform=linux os=almalinux9 target=skylake
+ -   at35jeg          ^automake@1.16.5 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   hjgkazi          ^libtool@2.4.7 build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   bzgqxym      ^p4est@2.8.7+mpi~openmp build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   tvpwoxr      ^py-f90nml@1.4.3 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   5d7aua4      ^py-python-dateutil@2.8.2 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   olcqq2r          ^py-six@1.17.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   flyi6od  neptune-python-env@1.5.0~xnrl build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   h5ku6k7      ^py-arch@7.0.0~numba~tutorial build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   km5o2qx          ^py-statsmodels@0.14.1 build_system=python_pip platform=linux os=almalinux9 target=skylake %c,fortran=oneapi@2025.1.1
+ -   tmz3733              ^py-patsy@0.5.4~splines build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   vpkwfwi      ^py-fortranformat@2.0.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   l76yfac      ^py-h5py@3.10.0~mpi build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   7l4fypb          ^py-cython@0.29.36 build_system=python_pip patches:=c4369ad platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   gvtwylu      ^py-netcdf4@1.7.2~mpi build_system=python_pip patches:=255b5ae,2593961 platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   m7zisus          ^py-cftime@1.6.4 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   33horrb      ^py-pandas@1.5.3~excel~performance build_system=python_pip platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   u236cmu          ^py-pytz@2024.2 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   yfvydx7      ^py-pybind11@2.13.6+ipo build_system=cmake build_type=Release generator=ninja platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   k3zdu55          ^ninja@1.12.1+re2c build_system=generic patches:=93f4bb3 platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   fasvjsw              ^re2c@3.1 build_system=autotools platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   657xhzt      ^py-pyhdf@0.11.4 build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   v24k5lv      ^py-pytest@8.2.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   kfkgrqq          ^py-iniconfig@2.0.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   xccyxfq          ^py-pluggy@1.5.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   oyr3qvn      ^py-regionmask@0.12.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   3b7vd37          ^py-geopandas@1.0.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   7bvluzs              ^py-pyogrio@0.9.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ugyuj2q                  ^py-versioneer@0.29+toml build_system=python_pip platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ih322at          ^py-pooch@1.7.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   nyu7krb              ^py-platformdirs@3.10.0~wheel build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   6s5zeet          ^py-rasterio@1.4.3 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   e2votjn              ^gdal@3.10.2~archive~armadillo~arrow~avif~basisu~blosc~brunsli~cfitsio~crnlib~cryptopp~csharp+curl~deflate~ecw+expat~filegdb~freexl~fyba+geos~gif~gta~hdf4~hdf5~hdfs~heif~iconv~idb~ipo~java+jpeg~jxl~kdu~kea+lerc~libaec~libcsf~libkml~liblzma~libqb3~libxml2~luratech~lz4~mongocxx~mrsid~mssql_ncli~mssql_odbc~mysql~netcdf~odbc~odbccpp~ogdi~opencad~opencl~opendrive~openexr~openjpeg~openssl~oracle~parquet~pcidsk~pcre2~pdfium~pic+png~podofo~poppler~postgresql~python+qhull~rasterlite2~rdb~sfcgal+shared~spatialite+sqlite3~teigha~tiledb~webp~xercesc~zstd build_system=cmake build_type=Release generator=ninja platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   3zxnjq5                  ^json-c@0.18~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   5e5wxh3                  ^lerc@4.0.0~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx=oneapi@2025.1.1
+ -   rdn6snf                  ^libgeotiff@1.7.1+jpeg+proj+zlib build_system=autotools platform=linux os=almalinux9 target=skylake %c=oneapi@2025.1.1
+ -   ortqkys              ^py-affine@2.1.0 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   jjj2cmg              ^py-click-plugins@1.1.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ambi3iy              ^py-cligj@0.7.2 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   cb2ejz6      ^py-scipy@1.16.0 build_system=python_pip platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+ -   zfotjz2          ^py-pythran@0.16.1 build_system=python_pip platform=linux os=almalinux9 target=skylake %cxx=oneapi@2025.1.1
+ -   q3xotja              ^py-beniget@0.4.1 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   ha6kuej              ^py-gast@0.5.4 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   khhvz2c              ^py-ply@3.11 build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   sd6h33z      ^py-xarray@2023.7.0~io~parallel build_system=python_pip platform=linux os=almalinux9 target=skylake
+ -   kqwrh2v  soca-env@1.0.0 build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   kgsyjy7  ufs-srw-app-env@1.0.0~python build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   whcknra      ^gfsio@1.4.2~ipo build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   ode7btc  ufs-weather-model-env@1.0.0~debug~python build_system=bundle platform=linux os=almalinux9 target=skylake
+ -   anvr56j      ^cprnc@1.0.8~ipo build_system=cmake build_type=Release generator=make patches:=ccba71d platform=linux os=almalinux9 target=skylake %fortran=oneapi@2025.1.1
+ -   3jgafjq      ^scotch@7.0.4+compression+esmumps~int64~ipo+metis+mpi~mpi_thread+noarch~shared~threads build_system=cmake build_type=Release generator=make platform=linux os=almalinux9 target=skylake %c,cxx,fortran=oneapi@2025.1.1
+

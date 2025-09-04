@@ -1,0 +1,2 @@
+==> Error: failed to concretize `gmao-swell-env ^crtm@=v2.4.1-jedi.2`, `ewok-env~cylc+ecflow`, `jedi-um-env`, `madis@4.5`, ..., `soca-env` for the following reasons:
+     1. Only external, or concrete, compilers are allowed for the fortran language
