@@ -11,5 +11,11 @@
 #   ~/.spack/repos.yaml
 # -------------------------------------------------------------------------
 repos:
-  builtin:
-    git: https://github.com/spack/spack-packages.git
+  # For spack-stack-dev branch of spack repo, keep and update
+  # this comment so that we know which version of spack-packages
+  # our fork of spack-packages is based on
+  #builtin:
+  #  git: https://github.com/spack/spack-packages.git
+  #  branch: releases/v2025.07
+  builtin: ${SPACK_ROOT}/repos/builtin/repos/spack_repo/builtin
+  spack_stack: ${SPACK_ROOT}/repos/spack_stack/spack_repo/spack_stack
